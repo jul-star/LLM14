@@ -1,0 +1,121 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+.env/
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.komodoproject
+
+# Лог-файлы и базы данных
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Кеши и временные файлы
+.cache/
+.pytest_cache/
+.coverage
+.coverage.*
+.hypothesis/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Документация и сборка
+docs/_build/
+target/
+
+# LocalAI‑специфичные папки
+/models/
+/config/
+/data/
+/storage/
+
+# Если используете docker-compose
+!.docker-compose.yml
+!.env
+docker/
+
+# Временные файлы LocalAI
+localai.log
+localai-debug.log
+
+# Пользовательские данные (если есть)
+/uploads/
+/tmp/
+/cache/
+
+# Файлы секретов (никогда не коммитить!)
+*.key
+*.pem
+*.crt
+secrets.txt
+.env
+.env.local
+
+# Дополнительные игнорируемые типы
+*.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Резервные копии
+*~
+*.bak
+*.backup
+
+# Артефакты тестирования
+.tox/
+.coverage*
+htmlcov/
+.pytest_cache
+
+# Специфические для Python-пакетов
+.pylint.d/
+.pylintrc
+
+# Локальные настройки
+local_settings.py
+settings_local.py
+
+# Docker (если не нужно хранить образы в репозитории)
+*.tar
+*.tgz
+
+# Локальные бинарные файлы (если собираете что-то своё)
+*.bin
+*.out
+*.exe
