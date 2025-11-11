@@ -3,13 +3,13 @@ from openai import OpenAI
 def main():
     # Инициализация клиента (указываем URL LocalAI)
     client = OpenAI(
-        base_url="http://localhost:8080/v1",
+        base_url="http://localhost:11434/v1",
         api_key="not-required"  # LocalAI не требует ключа
     )
 
     # Отправка запроса
     chat_completion = client.chat.completions.create(
-        model="qwen3-vl-4b-instruct",  # имя из models.yaml
+        model="qwen3-coder:30b",  # имя из models.yaml   qwen3-vl-4b-instruct
         messages=[
             {"role": "user", "content": "Напиши краткий гайд по работе с LocalAI"}
         ],
