@@ -14,7 +14,7 @@ def main():
             {"role": "user", "content": "Напиши краткий гайд по работе с LocalAI"}
         ],
         temperature=0.7,
-        max_tokens=300
+        max_tokens=3000
     )
     print(chat_completion.choices[0].message.content)
 
